@@ -1,0 +1,27 @@
+.container{
+    position:fixed;
+    height:700px;
+    overflow-y:auto;
+    right:0;
+    background-color:var(--background-color);
+    top:60px;
+    padding:10px;
+}
+.fullWidth{
+    width:calc(100% - 250px);
+}
+.innerContainer{
+    width:100%;
+    min-height:600px;
+    background:white;
+    z-index:-1000;
+    margin-top:10px;
+    box-sizing: content-box;
+
+}
+@media (max-width:500px)
+{
+    .fullWidth{
+        width:100%;
+    }
+}
